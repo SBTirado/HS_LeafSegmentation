@@ -1,4 +1,4 @@
-Extract pixel values, mean spectra, mean slope and pixel slope values for 10 leaf segments across the plant. 
+Extract pixel values, mean spectra, mean slope and pixel slope values for 10 leaf segments across a maize plant's longest leaf from top-down hyperspectral images. 
 
 
 Usage:
