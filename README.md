@@ -1,8 +1,8 @@
-Extracts output (images, pixel values, mean spectra, mean slope and pixel slope values for each bin of given plant)
+Extract pixel values, mean spectra, mean slope and pixel slope values for 10 leaf segments across the plant. 
 
 
 Usage:
-[DonutPixelValues, DonutMeanSlopes, DonutAllSlopes, DonutMeanSpectra, xx] = ExtractDonuts_Function(NDVI, BW_plant, data_norm_t, h, Wavelengths, M, name, date, plant, folder_data, donuts);
+[DonutPixelValues, DonutMeanSlopes, DonutAllSlopes, DonutMeanSpectra, xx] = ExtractDonuts_Function(NDVI, BW_plant, data_norm_t, h, Wavelengths, M, name, date, plant, folder_data);
 
 Inputs:
 
@@ -17,8 +17,6 @@ date = date of imaging in mmddyyyy format as named in folder and images
 plant = A, B or C
 
 folder_data = folder where all the donut output will be stored. The folders Imaging/ Mean Slopes/ Mean SPectra and Pixel Values must be contained in the folder specified by this path 
-
-donuts = number of donuts desired
 
 
 Outputs:
