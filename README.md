@@ -1,4 +1,4 @@
-Extracts output (images, pixel values, mean spectra, mean sope and pixel slope values for each bin of given plant)
+Extracts output (images, pixel values, mean spectra, mean slope and pixel slope values for each bin of given plant)
 
 Inputs:
 % NDVI, BW_plant, data_norm_t, h, Wavelengths = Output from from readHyperspecFile3.m function
